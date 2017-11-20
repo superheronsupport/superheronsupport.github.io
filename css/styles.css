@@ -1,4 +1,8 @@
 @charset "UTF-8";
+p {
+  color: #000;
+}
+
 /* navigation */
 .navbar {
   position: relative;
@@ -123,18 +127,23 @@
 		padding-bottom: 20px;
 }
 /* contact container */
-#sub_cta {
+#contact {
   padding-top: 10px;
   padding-bottom: 20px;
   margin-bottom: 0;
   margin-top: 20px;
   background-color: #6688AA;
+  color: #000;
+}
+#contact h2 {
+  margin-bottom: 15px;
   color: #eee;
 }
 #contact p {
   margin-bottom: 15px;
   font-size: 22px;
   font-weight: 300;
+  color: #eee;
 }
 #contact button {
   margin-bottom: 5px;
